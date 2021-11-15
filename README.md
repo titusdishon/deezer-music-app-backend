@@ -88,6 +88,8 @@ npm start # makes the app available on localhost, port 3001 by default
 
 You should be able to see a response object
 ### Sample output
+![Tests](https://github.com/titusdishon/deezer-music-app-backend/blob/main/sample-output.png)
+
 
 By changing the limit param on the endpoint expect to see an array of your expected length
 #### Other apis:
@@ -119,3 +121,4 @@ Preface you branch name with
 - they do not break existing functionality
 - they do not lower test coverage (unreasonably)
 ### sample test coverage
+![Tests](https://github.com/titusdishon/deezer-music-app-backend/blob/main/testcoverage.png)
