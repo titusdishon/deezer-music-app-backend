@@ -25,8 +25,10 @@ export const searchArtist = async(req, res) => {
      if (!query) {
           return res.status(400).json({ error: 'Please provide a search query' });
      }
-     
-     const results = await deezer.search.artist(query, 'asc', 5, 1 );
-
-     res.status(200).send(results);
+     try {
+        const results = await deezer.search.artist(query, 'artist', 5, 1 );
+        res.status(200).send(results);
+     } catch (error) {
+        return res.status(500).send(error.message);
+     }
 }
