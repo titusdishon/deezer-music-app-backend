@@ -1,0 +1,38 @@
+{
+  "name": "deexer-backend",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "jest"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ader-api/Ader-Node-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ader-api/Ader-Node-backend/issues"
+  },
+  "homepage": "https://github.com/ader-api/Ader-Node-backend#readme",
+  "dependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "babel-jest": "^27.3.1",
+    "babel-plugin-dynamic-import-node": "^2.3.3",
+    "cors": "^2.8.5",
+    "deezer-public-api": "^1.0.4",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.1.6",
+    "ts-jest": "^27.0.7"
+  },
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
+}
