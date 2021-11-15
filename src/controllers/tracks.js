@@ -32,3 +32,15 @@ export const searchArtist = async (req, res) => {
         return res.status(500).send(error.message);
     }
 }
+export const getTracksBelogingToArtist = async (req, res) => {
+    const { id , limit, index} = req.query;
+    if (!id || !limit || !index) {
+        return res.status(400).json({ error: 'Please provide a limit, id and an index' });
+    }
+    try {
+        const results = await deezer.artist.top((id, limit, index));
+        res.status(200).send(results);
+    } catch (error) {
+        return res.status(500).send(error.message);
+    }
+}
