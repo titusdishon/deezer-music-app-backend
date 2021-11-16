@@ -2,7 +2,7 @@ const request = require('supertest');
 
 import { testApp } from '../app.js';
 
-it('It returns a playlist when  limit set to 20  and index to 1 and valid id provided', async () => {
+it('It returns a playlist when  limit set to 20  and index to 1 and valid id provided.', async () => {
     const respCharts = await request(testApp)
         .get('/api/v1/charts?limit=20&index=1')
         .send()
