@@ -8,7 +8,7 @@ import compression from "compression";
 dotenv.config();
 const app =  express();
 import { testApp } from './app.js';
-const PORT = process.env.NODE_PORT ;
+const PORT = process.env.PORT ;
 app.use(cors());
 app.use(helmet());
 app.use(compression({ filter: shouldCompress }))
