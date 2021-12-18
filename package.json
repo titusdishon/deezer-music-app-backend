@@ -9,17 +9,11 @@
     "start": "node src/index.js",
     "test": "jest"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ader-api/Ader-Node-backend.git"
-  },
+
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ader-api/Ader-Node-backend/issues"
-  },
-  "homepage": "https://github.com/ader-api/Ader-Node-backend#readme",
+
   "dependencies": {
     "@babel/core": "^7.16.0",
     "@babel/preset-env": "^7.16.0",
