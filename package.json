@@ -1,7 +1,7 @@
 {
   "name": "deexer-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "Node js deezer api wrapper",
   "type": "module",
   "main": "index.js",
   "scripts": {
@@ -10,10 +10,9 @@
     "test": "jest"
   },
 
-  "keywords": [],
-  "author": "",
+  "keywords": ["deezer", "api", "wrapper", "nodejs", "node", "typescript"],
+  "author": "TITUS MUTISO DISON",
   "license": "ISC",
-
   "dependencies": {
     "@babel/core": "^7.16.0",
     "@babel/preset-env": "^7.16.0",

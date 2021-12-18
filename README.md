@@ -93,10 +93,10 @@ You should be able to see a response object
 
 By changing the limit param on the endpoint expect to see an array of your expected length
 #### Other apis:
-[{BASE_URL}/api/v1/search-artist?query=a]({BASE_URL}/api/v1/search-artist?query=a)
-[{BASE_URL}/artist/tracks?limit={NUMBER_OF_ITEMS}?&index={PAGE}&id=${ARTIST_ID}]({BASE_URL}/artist/tracks?limit={NUMBER_OF_ITEMS}?&index={PAGE}&id=${ARTIST_ID})
-[{BASE_URL}/charts?limit={NUMBER_OF_ITEMS}&index=${PAGE}]({BASE_URL}/charts?limit={NUMBER_OF_ITEMS}&index=${PAGE)
-[{BASE_URL}artist/tracks?limit=50?&index=1&id=${ARTIST_ID}]({BASE_URL}artist/tracks?limit=50?&index=1&id=${ARTIST_ID})
+- [{BASE_URL}/api/v1/search-artist?query=a]({BASE_URL}/api/v1/search-artist?query=a)
+- [{BASE_URL}/artist/tracks?limit={NUMBER_OF_ITEMS}?&index={PAGE}&id=${ARTIST_ID}]({BASE_URL}/artist/tracks?limit={NUMBER_OF_ITEMS}?&index={PAGE}&id=${ARTIST_ID})
+- [{BASE_URL}/charts?limit={NUMBER_OF_ITEMS}&index=${PAGE}]({BASE_URL}/charts?limit={NUMBER_OF_ITEMS}&index=${PAGE)
+- [{BASE_URL}artist/tracks?limit=50?&index=1&id=${ARTIST_ID}]({BASE_URL}artist/tracks?limit=50?&index=1&id=${ARTIST_ID})
 
 #### Submit a Pull Request
 
